@@ -1,9 +1,9 @@
-const test = require('node:test');
-const assert = require('node:assert/strict');
-const fs = require('node:fs');
-const path = require('node:path');
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import test from 'node:test';
 
-const csv = require('..');
+import csv from '../lib/expense-report.js';
 
 /**
  * Compare files line-by-line
@@ -16,7 +16,7 @@ function compareCsv(actual, expected) {
 }
 
 function readFileSync(name) {
-  return fs.readFileSync(path.join(__dirname, name), 'utf8');
+  return fs.readFileSync(path.join(import.meta.dirname, name), 'utf8');
 }
 
 function readJSON(name) {
