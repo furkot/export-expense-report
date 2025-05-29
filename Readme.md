@@ -15,7 +15,7 @@ $ npm install --save @furkot/export-expense-report
 ## Usage
 
 ```js
-const expenseReport = require('@furkot/export-expense-report');
+import expenseReport from '@furkot/export-expense-report';
 
 expenseReport(trip);
 ```

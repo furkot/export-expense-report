@@ -2,12 +2,17 @@
   "name": "@furkot/export-expense-report",
   "version": "0.0.5",
   "description": "Generate CSV expense report from Furkot trip data.",
+  "type": "module",
+  "export": "./lib/expense-report.js",
   "author": {
     "name": "Natalia Kowalczyk",
     "email": "melitele@code42day.com",
     "url": "https://melitele.me"
   },
-  "repository": "furkot/export-expense-report",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furkot/export-expense-report.git"
+  },
   "license": "MIT",
   "keywords": [
     "expense-report",
@@ -17,16 +22,13 @@
     "planner",
     "CSV"
   ],
-  "dependencies": {},
   "devDependencies": {
-    "@pirxpilot/jshint": "~3",
-    "should": "~13"
+    "@biomejs/biome": "^1.9.4"
   },
   "scripts": {
     "test": "make check"
   },
   "files": [
-    "index.js",
     "lib"
   ]
 }
