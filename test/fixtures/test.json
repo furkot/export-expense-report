@@ -14,12 +14,18 @@
       "notes": "the first stop",
       "tags": ["actual cost", "total"]
     }, {
+      "arrival_time": 1706186420000,
+      "day": 0,
+      "dayLabel": "first day",
+      "distance": 123000,
+      "passthru": true
+    }, {
       "arrival_time": 1706186426000,
       "cost": 10000,
       "costRoute": 1500,
       "day": 0,
       "dayLabel": "first day",
-      "distance": 123456,
+      "distance": 456,
       "name": "overnight",
       "nights": 2,
       "notes": "overnight lodging",

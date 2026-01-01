@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Generate CSV expense report from Furkot trip data.",
   "type": "module",
-  "export": "./lib/expense-report.js",
+  "exports": "./lib/expense-report.js",
   "author": {
     "name": "Natalia Kowalczyk",
     "email": "melitele@code42day.com",
