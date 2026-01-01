@@ -1,4 +1,10 @@
 
+1.0.1 / 2026-01-01
+==================
+
+ * ignore pass-thru points
+ * fix module exports declaration
+
 1.0.0 / 2025-05-29
 ==================
 

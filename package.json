@@ -1,6 +1,6 @@
 {
   "name": "@furkot/export-expense-report",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate CSV expense report from Furkot trip data.",
   "type": "module",
   "exports": "./lib/expense-report.js",
